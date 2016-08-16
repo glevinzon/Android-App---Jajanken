@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.68">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:text="HOST"
+            android:id="@+id/btnHost"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_button3"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:text="JOIN"
+            android:id="@+id/btnJoin"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/round_button"/>
+
+    </FrameLayout>
+</LinearLayout>
